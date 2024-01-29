@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": ["Hello,\nThanks for visiting CETA. How may I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "How many events are there?",
+        "What kinds of events are there?",
+        "Does event takes place?",
+        "can you help me with the events?",
+        "I would like to know about the ongoing events?",
+        "Any events are there?",
+        "About events?",
+        "Events?"
+      ],
+      "responses": [
+        "Yes, there are two events are happening right now.\nTechnical Events\nNon-technical Events"
+      ]
+    },
+    {
+      "tag": "technical",
+      "patterns": [
+        "What are the technical events?",
+        "What do we have in technical events?",
+        "How many technical events are there?",
+        "I would like to know about the technical events?",
+        "I want to know about the technical events!",
+        "Technical events!",
+        "Technical"
+      ],
+      "responses": [
+        "Thank you for choosing technical events,\n we have coding,group discussions,seminars and jam."
+      ]
+    },
+    {
+      "tag": "non-technical",
+      "patterns": [
+        "What are the non-technical events?",
+        "How many contests are there in non-technica?",
+        "I want to know about the non-technical events?",
+        "I would like to know about the non-technical events",
+        "Non-technical events?",
+        "Non-technical"
+      ],
+      "responses": ["Glad!!!\n we have sports,dance,music and standup."]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "When is the last date for registrations?",
+        "Date for registrations?",
+        "When are registrations can be done?",
+        "Deadline for registrations?",
+        "Deadline date?",
+        "Date?"
+      ],
+      "responses": ["The last date to register is 6TH FEB,2023."]
+    }
+  ]
+}
